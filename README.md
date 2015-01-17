@@ -20,8 +20,8 @@ docker run --rm\
 or
 
 ```
-docker run\ 
-	 -t -i --rm=true \ 
+docker run \ 
+	-t -i --rm=true \ 
 	-v `pwd`/admin-openrc.sh:/root/admin-openrc.sh \
 	krystism/openstackclient bash
 source /root/admin-openrc.sh
